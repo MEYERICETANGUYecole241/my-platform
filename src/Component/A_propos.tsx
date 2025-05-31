@@ -16,15 +16,18 @@ export default function A_propos() {
         <div className="flex flex-col md:flex-row items-center gap-10">
           
           {/* Colonne image */}
-          <div className="w-full md:w-1/2">
-            <Image
-              src="/image_2.svg" // ⚠️ le fichier doit être dans le dossier "public/"
-              alt="Illustration de la plateforme collaborative"
-              width={500}
-              height={500}
-              className="w-full h-auto object-cover rounded-xl"
-            />
-          </div>
+         <div className="w-full md:w-1/2">
+  <video
+  src="/video.mp4" // ⚠️ le fichier doit être dans le dossier "public/"
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full h-auto object-cover rounded-xl"
+/>
+
+</div>
+
           
           {/* Colonne texte */}
           <div className="w-full md:w-1/2 text-right">
